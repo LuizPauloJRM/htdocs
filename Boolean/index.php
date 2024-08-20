@@ -6,14 +6,16 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Tipo booleano</title>
     </head>
     <body>
         <?php
-            define("LUIZ", "Teste de constante");
-            echo LUIZ;
-            const PROFESSOR = "<br>Paulo";
-            echo PROFESSOR;
+            $valor=false; 
+            if($valor==false)
+                echo 'falso';
+            else {
+                echo 'verdadeiro';
+            }
         ?>
     </body>
 </html>

@@ -6,14 +6,12 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Entrada de dados em PHP</title>
     </head>
     <body>
         <?php
-            define("LUIZ", "Teste de constante");
-            echo LUIZ;
-            const PROFESSOR = "<br>Paulo";
-            echo PROFESSOR;
+      s
+        
         ?>
     </body>
 </html>

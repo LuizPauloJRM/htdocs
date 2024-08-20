@@ -6,14 +6,15 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Laços de repetição</title>
     </head>
     <body>
         <?php
-            define("LUIZ", "Teste de constante");
-            echo LUIZ;
-            const PROFESSOR = "<br>Paulo";
-            echo PROFESSOR;
+        // Crie um script PHP que utilize um laço de repetição para exibir os números de 1 a 10
+        for ($r=1; $r <= 10; $r++){
+        echo $r;   
+        }
+        
         ?>
     </body>
 </html>

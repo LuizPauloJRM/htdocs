@@ -6,14 +6,14 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Exercicio - Variáveis</title>
     </head>
     <body>
         <?php
-            define("LUIZ", "Teste de constante");
-            echo LUIZ;
-            const PROFESSOR = "<br>Paulo";
-            echo PROFESSOR;
+        //Escreva um script PHP que armazene seu nome e idade em variáveis e as exiba.
+        $nome = "Luiz";
+        $idade = 25;
+        echo "Meu nome é $nome , tenho $idade";
         ?>
     </body>
 </html>

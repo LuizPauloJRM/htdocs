@@ -6,14 +6,15 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Exercicio de concatenação de strings</title>
     </head>
     <body>
         <?php
-            define("LUIZ", "Teste de constante");
-            echo LUIZ;
-            const PROFESSOR = "<br>Paulo";
-            echo PROFESSOR;
+        // Crie um script PHP que combine duas strings usando concatenação e exiba o resultado
+        $nome = "Luiz Paulo";
+        $idade = 25;
+        echo "NOME: {$nome}<br>IDADE: {$idade}";
+      
         ?>
     </body>
 </html>
