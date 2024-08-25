@@ -6,12 +6,15 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Entrada de dados em PHP</title>
+        <title></title>
     </head>
     <body>
         <?php
-      
-        
+            $var = 3;
+            if($var <> 2)
+                echo $var." é diferente de 2";
+            else
+                echo $var." é igual de 2";
         ?>
     </body>
 </html>

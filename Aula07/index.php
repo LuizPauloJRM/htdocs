@@ -6,12 +6,19 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Entrada de dados em PHP</title>
+        <title></title>
     </head>
     <body>
         <?php
-      
-        
+         
+            $nomequalquer = "5";
+            $numero=3;
+            $texto="20 anos";
+            $frase="tenho 40 anos";
+            echo $nomequalquer+$numero."<br>";
+            echo $numero+$texto."<br>";
+            echo $numero+$frase."<br>";
+ 
         ?>
     </body>
 </html>

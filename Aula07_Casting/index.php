@@ -6,12 +6,14 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Entrada de dados em PHP</title>
+        <title></title>
     </head>
     <body>
-        <?php
-      
-        
-        ?>
+     <?php
+     $var1 = 1.5;
+     $var2 = 2.5;
+     $soma = (int) $var1+$var2;
+     echo $soma;
+     ?>
     </body>
 </html>
